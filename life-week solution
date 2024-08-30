@@ -1,0 +1,8 @@
+function agecalculation(age){
+    var year=100-age;
+    var remaingdays=year*365;
+    var remaingweeks=year*52;
+    var remaingmonths=year*12;
+    console.log("you have " + remaingdays + " days " + remaingweeks + " weeks " + remaingmonths + " months");
+}
+agecalculation(20)
